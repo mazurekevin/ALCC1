@@ -1,7 +1,8 @@
 # ALCC1
 
 1) Login, si un compte est déjà créer.
-2) Création d'un compte: -Mail
+2) Création d'un compte: 
+- Mail
 - Prénom (première lettre en maj)
 - Nom (tout en maj)
 - Age (+18ans)
