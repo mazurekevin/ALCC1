@@ -1,10 +1,10 @@
 package com.CC1.ProjetCC1.model;
 
 
-public class Service {
-    public String Email;
-    public String Name;
-    public int Price;
+public final class Service {
+    public final String Email;
+    public final String Name;
+    public final int Price;
 
     public Service(String email, String name, int price){
         this.Email = email;

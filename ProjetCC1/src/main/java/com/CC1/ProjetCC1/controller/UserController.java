@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserController {
+public final class UserController {
     Response res = new Response();
     ConnectDB connectDB = new ConnectDB();
 

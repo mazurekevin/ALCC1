@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value = "/service")
-public class ServiceController {
+public final class ServiceController {
     Response res = new Response();
     ConnectDB connectDB = new ConnectDB();
 

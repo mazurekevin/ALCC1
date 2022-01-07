@@ -3,13 +3,13 @@ package com.CC1.ProjetCC1.model;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class User {
+public final class User {
 
-    public String Firstname;
-    public String Lastname;
-    public String Age;
-    public String Email;
-    public String Password;
+    public final String Firstname;
+    public final String Lastname;
+    public final String Age;
+    public final String Email;
+    public final String Password;
 
     public User(String firstName,String lastName, String age,String email,String password){
         this.Firstname = firstName;

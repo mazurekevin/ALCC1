@@ -2,7 +2,7 @@ package com.CC1.ProjetCC1.api;
 
 import java.sql.*;
 
-public class ConnectDB {
+public final class ConnectDB {
     public String connectDB(String request, String method) {
         String result = "";
 
