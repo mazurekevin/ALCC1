@@ -1,7 +1,7 @@
-package com.CC1.ProjetCC1.Controller;
+package com.CC1.ProjetCC1.controller;
 
-import com.CC1.ProjetCC1.Api.ConnectDB;
-import com.CC1.ProjetCC1.Api.Response;
+import com.CC1.ProjetCC1.api.ConnectDB;
+import com.CC1.ProjetCC1.api.Response;
 import com.CC1.ProjetCC1.model.Service;
 import org.springframework.web.bind.annotation.*;
 

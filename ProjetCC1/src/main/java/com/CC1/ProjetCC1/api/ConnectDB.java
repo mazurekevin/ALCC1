@@ -1,4 +1,4 @@
-package com.CC1.ProjetCC1.Api;
+package com.CC1.ProjetCC1.api;
 
 import java.sql.*;
 

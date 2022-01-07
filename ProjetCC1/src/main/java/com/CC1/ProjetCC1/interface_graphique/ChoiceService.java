@@ -1,4 +1,4 @@
-package com.CC1.ProjetCC1.Interface;
+package com.CC1.ProjetCC1.interface_graphique;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

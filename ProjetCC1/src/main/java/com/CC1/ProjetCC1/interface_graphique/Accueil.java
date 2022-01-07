@@ -1,6 +1,6 @@
-package com.CC1.ProjetCC1.Interface;
+package com.CC1.ProjetCC1.interface_graphique;
 
-import com.CC1.ProjetCC1.Controller.UserController;
+import com.CC1.ProjetCC1.controller.UserController;
 
 import javax.swing.*;
 import java.awt.event.*;

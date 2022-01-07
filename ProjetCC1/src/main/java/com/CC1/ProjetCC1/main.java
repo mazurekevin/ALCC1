@@ -1,6 +1,6 @@
 package com.CC1.ProjetCC1;
 
-import com.CC1.ProjetCC1.Interface.Accueil;
+import com.CC1.ProjetCC1.interface_graphique.Accueil;
 
 import javax.swing.*;
 
