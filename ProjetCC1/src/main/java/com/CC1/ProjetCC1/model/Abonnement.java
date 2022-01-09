@@ -1,11 +1,11 @@
 package com.CC1.ProjetCC1.model;
 
-import java.time.LocalDate;
+import java.util.Calendar;
 import java.util.Date;
 
 public final class Abonnement extends Service {
-    private final Date startDate;
-    private final Date endDate;
+    private Date startDate;
+    private Date endDate;
 
     public Abonnement( Service service, Date startDate, Date endDate) {
         super(service.Email, service.Name, service.Price);
@@ -13,12 +13,21 @@ public final class Abonnement extends Service {
         this.endDate = endDate;
     }
 
-    private void checkDate(Date startDate, Date endDate) {
+    public boolean checkDate(Date startDate, Date endDate) {
         if (startDate.after(endDate)) {
-            throw new IllegalArgumentException("La date de début ne peut pas être après la date de fin.");
+            return false;
+        }
+        return true;
+    }
+
+    public void changeDate(Abonnement abonnement, Date now){
+        if(now==abonnement.endDate){
+            abonnement.startDate = now;
+            Calendar cal = Calendar.getInstance();
+            cal.add(Calendar.MONTH, 1);
+            abonnement.endDate = cal.getTime();
         }
     }
-    
 
 
 }
